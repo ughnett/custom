@@ -44,8 +44,8 @@ function custom_setup() {
 	unregister_sidebar( 'sidebar-alt' );
 }
 // Add Google Font stylesheet.
-add_action( 'wp_enqueue_scripts', 'custom_equeue_styles' );
-function custom_equeue_styles() {
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Lobster' );
-	
+// add_action( 'wp_enqueue_scripts', 'custom_equeue_styles' );
+// function custom_equeue_styles() {
+	// wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Lobster' );
+
 }
